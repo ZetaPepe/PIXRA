@@ -310,24 +310,10 @@ export default function Home() {
         <div className="container px-4 mx-auto">
           <div className="flex flex-wrap justify-center gap-6 mb-8">
             <SocialIcon icon={<Github />} href="https://github.com/aakash4dev" label="GitHub" />
-            <SocialIcon icon={<Linkedin />} href="https://linkedin.com/in/aakash4dev" label="LinkedIn" />
             <SocialIcon icon={<Twitter />} href="https://twitter.com/aakash4dev" label="Twitter" />
-            <SocialIcon icon={<MessageSquare />} href="https://discord.com/users/aakash4dev" label="Discord" />
-            <SocialIcon icon={<PenTool />} href="https://medium.com/@aakash4dev" label="Medium" />
-            <SocialIcon
-              icon={<Smartphone />}
-              href="#"
-              label="Mobile Apps"
-              className="opacity-50 cursor-not-allowed"
-              onClick={(e) => {
-                e.preventDefault()
-                // You can add a console.log here if you want to verify it's working
-                console.log("Mobile icon click prevented")
-              }}
-            />
           </div>
           <div className="text-center text-gray-500 text-sm">
-            <p>© {new Date().getFullYear()} Aakash Singh Rajput. All rights reserved.</p>
+            <p>© {new Date().getFullYear()} PIXRA. All rights reserved.</p>
             <ContactEmail />
           </div>
         </div>
@@ -368,8 +354,8 @@ function ProjectCard({ title, description, tags, image }) {
 function ContactEmail() {
   return (
     <div className="mt-2">
-      <a href="mailto:aakash4dev.me@gmail.com" className="text-purple-400 hover:text-purple-300">
-        aakash4dev.me@gmail.com
+      <a href="mailto:PIXRA@gmail.com" className="text-purple-400 hover:text-purple-300">
+        PIXRA@gmail.com
       </a>
     </div>
   )
