@@ -123,28 +123,28 @@ export default function Home() {
               />
               <ServiceCard
                 icon={<Cpu className="w-10 h-10 text-pink-500" />}
-                title="ZK & FHE Implementation"
-                description="Zero-knowledge proofs and fully homomorphic encryption solutions for privacy-preserving applications."
+                title="MCP Standardization"
+                description="Using the Model Context Protocol (MCP), assets are standardized for secure trading, staking, leasing, and showcasing on the blockchain."
               />
               <ServiceCard
                 icon={<Braces className="w-10 h-10 text-purple-500" />}
-                title="Full Stack Development"
-                description="End-to-end web application development with modern frameworks and best practices."
+                title="Physical Asset Digitization"
+                description="Convert real-world assets into digital forms to simplify management, improve liquidity, and enable efficient trading."
               />
               <ServiceCard
                 icon={<FileText className="w-10 h-10 text-pink-500" />}
-                title="Smart Contract Auditing"
-                description="Comprehensive security audits for smart contracts to identify vulnerabilities and ensure robust implementation."
+                title="Blockchain Security"
+                description="Ensure transparency, security, and immutability of asset transactions and ownership transfers through blockchain technology."
               />
               <ServiceCard
                 icon={<Github className="w-10 h-10 text-purple-500" />}
-                title="Web3 Integration"
-                description="Seamless integration of Web3 technologies into existing applications and platforms."
+                title="AI and MCP Empowerment"
+                description="Integrating AI with MCP to intelligently and efficiently map, standardize, and process asset data in the digital ecosystem."
               />
               <ServiceCard
                 icon={<MessageSquare className="w-10 h-10 text-pink-500" />}
-                title="Technical Consultation"
-                description="Expert advice on blockchain architecture, technology stack selection, and implementation strategies."
+                title="Entering the Virtual Economy"
+                description="With PIXRA, anyone can easily digitize their physical assets and step into a more efficient, transparent, and secure virtual economy."
               />
             </div>
           </motion.div>
