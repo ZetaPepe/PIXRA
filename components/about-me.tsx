@@ -80,25 +80,26 @@ export default function AboutMe() {
               <div className="prose prose-invert max-w-none text-center md:text-left">
                 {/* Mobile description */}
                 <p className="text-lg leading-relaxed md:hidden whitespace-pre-line">
-                  PIXRA tokens (PIXRA), as the core assets of the platform, are able to be traded, pledged, leased and other operations inside and outside the platform. 
+                  PIXRA tokens (PIXRA), as the core assets of the platform, are able to be traded, pledged, leased and other operations inside and outside the platform.
                   The token distribution and usage mechanism ensures the long-term growth and sustainability of the platform.
                   <br /><br />
-                  - Token name: PIXRA
+                  <span className="bg-clip-text text-transparent bg-gradient-to-r from-purple-400 to-pink-500 font-bold">Token name:</span> PIXRA
                   <br />
-                  - Total amount: 10,000,000 PIXRA
+                  <span className="bg-clip-text text-transparent bg-gradient-to-r from-purple-400 to-pink-500 font-bold">Total amount:</span> 10,000,000 PIXRA
                   <br />
-                  - Initial distribution:
+                  <span className="bg-clip-text text-transparent bg-gradient-to-r from-purple-400 to-pink-500 font-bold">Initial distribution:</span>
                   <br />
-                  - 5% team, 5% rewards, 90% community, you can get a pie chart over here
+                  5% team, 5% rewards, 90% community 
                   <br />
-                 - Usage scenario:
-                 <br />
-                   - Asset Tokenization: Tokenize assets through PIXRA, trade, pledge.
-                 <br />
-                   - Investment and financing: Users can participate in project financing or invest in assets through PIXRA.
-                 <br />
-                   - Reward Mechanism: Users who participate in platform activities are rewarded with PIXRA tokens.
+                  <span className="bg-clip-text text-transparent bg-gradient-to-r from-purple-400 to-pink-500 font-bold">Usage scenario:</span>
+                  <br />
+                  <span className="bg-clip-text text-transparent bg-gradient-to-r from-purple-400 to-pink-500 font-bold">Asset Tokenization:</span> Tokenize assets through PIXRA, trade, pledge.
+                  <br />
+                  <span className="bg-clip-text text-transparent bg-gradient-to-r from-purple-400 to-pink-500 font-bold">Investment and financing:</span> Users can participate in project financing or invest in assets through PIXRA.
+                  <br />
+                  <span className="bg-clip-text text-transparent bg-gradient-to-r from-purple-400 to-pink-500 font-bold">Reward Mechanism:</span> Users who participate in platform activities are rewarded with PIXRA tokens.
                 </p>
+
                 {/* Desktop description */}
                 <div className="hidden md:block">
                   <p className="text-xl mb-4">
