@@ -26,9 +26,9 @@ export default function Navbar() {
 
   const navLinks = [
     { name: "Home", href: "#home" },
-    { name: "About PIXRA", href: "#about" },
-    { name: "How It Works", href: "#services" },
-    { name: "Tokenomics", href: "#work" },
+    { name: "Tokenomics", href: "#about" },
+    { name: "About PIXRA", href: "#services" },
+    { name: "How It Works", href: "#work" },
     { name: "Contact Us", href: "#contact" },
   ]
 
