@@ -56,7 +56,7 @@ export default function Navbar() {
     >
       <div className="container mx-auto px-4 md:px-8 flex justify-between items-center">
         <Link href="#home" className="text-2xl font-bold text-white" onClick={(e) => scrollToSection(e, "#home")}>
-          PIXRA<span className="text-red-500">.</span>
+          PIXRA
         </Link>
 
         {/* Desktop Navigation */}
