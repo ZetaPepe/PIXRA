@@ -162,32 +162,44 @@ export default function Home() {
           >
             <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center">
               <span className="bg-clip-text text-transparent bg-gradient-to-r from-purple-400 to-pink-500">
-                What I've Built
+                How PIXRA Works 
               </span>
               <span className="ml-2 text-white">🏗️</span>
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
               <ProjectCard
-                title="Serverless Web3 Blog"
-                description="Decentralized blogging platform with permanent storage on Arweave and crypto micropayments."
-                tags={["Next.js", "Firebase", "Arweave", "Web3"]}
+                title="Asset Data Collection"
+                description="Capture detailed real-world asset information via sensors, images, or video technologies."
+                tags={["Sensors", "Data Capture", "Real-World Assets", "Web3"]}
               />
               <ProjectCard
-                title="Cross-Chain Bridge"
-                description="Secure bridge for asset transfers between different blockchain networks."
-                tags={["Cross-Chain", "Interoperability", "DeFi"]}
+                title="Initial Data Processing"
+                description="Preprocess and organize collected raw data to prepare for AI-driven modeling."
+                tags={["Data Preprocessing", "Organization", "AI Input"]}
                 image="/images/cross-chain-bridge.jpg"
               />
               <ProjectCard
-                title="Decentralized Identity Solution"
-                description="Self-sovereign identity solution using blockchain technology."
-                tags={["DID", "Identity", "Blockchain"]}
+                title="AI-Based Pixelation"
+                description="Apply AI algorithms to pixelate and create precise digital models of the assets."
+                tags={["AI Modeling", "Pixelation", "Digital Twin"]}
                 image="/images/decentralized-identity.jpg"
               />
               <ProjectCard
-                title="Solidity Code Generator"
-                description="Tool for rapid development and testing of secure smart contracts."
-                tags={["Solidity", "Smart Contracts", "Development"]}
+                title="MCP Standardization"
+                description="Use the Model Context Protocol (MCP) to standardize digital assets for interoperability across blockchain ecosystems."
+                tags={["MCP Protocol", "Standardization", "Interoperability"]}
+                image="/images/solidity-generator.jpg"
+              />
+              <ProjectCard
+                title="Tokenization via RWA"
+                description="Transform standardized assets into blockchain tokens via the Real-World Asset (RWA) mechanism, assigning them real value."
+                tags={["RWA", "Tokenization", "Asset Value"]}
+                image="/images/solidity-generator.jpg"
+              />
+              <ProjectCard
+                title="Blockchain Integration"
+                description="Deploy and manage tokenized assets on the blockchain for trading, staking, leasing, and showcasing."
+                tags={["Blockchain", "Smart Contracts", "Asset Management"]}
                 image="/images/solidity-generator.jpg"
               />
             </div>
