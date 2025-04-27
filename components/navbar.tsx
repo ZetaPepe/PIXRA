@@ -95,19 +95,6 @@ export default function Navbar() {
             whileHover="hover"
           >
             <Github size={24} />
-          </motion.a>
-          <motion.a
-            href="https://linkedin.com/in/aakash4dev"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-gray-300 hover:text-white transition-colors duration-300"
-            aria-label="LinkedIn"
-            variants={iconVariants}
-            initial="initial"
-            whileHover="hover"
-          >
-            <Linkedin size={24} />
-          </motion.a>
         </div>
 
         {/* Mobile Navigation Toggle */}
@@ -135,18 +122,6 @@ export default function Navbar() {
             whileHover="hover"
           >
             <Github size={24} />
-          </motion.a>
-          <motion.a
-            href="https://linkedin.com/in/aakash4dev"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-gray-300 hover:text-white transition-colors duration-300"
-            aria-label="LinkedIn"
-            variants={iconVariants}
-            initial="initial"
-            whileHover="hover"
-          >
-            <Linkedin size={24} />
           </motion.a>
           <button className="text-white focus:outline-none" onClick={() => setIsOpen(!isOpen)}>
             {isOpen ? <X size={24} /> : <Menu size={24} />}
