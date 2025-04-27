@@ -5,7 +5,7 @@ import type React from "react"
 import { useState, useEffect } from "react"
 import Link from "next/link"
 import { motion, AnimatePresence } from "framer-motion"
-import { Menu, X, Github, Linkedin, Calendar } from "lucide-react"
+import { Menu, X, Github, Twitter, Calendar } from "lucide-react"
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false)
@@ -73,19 +73,19 @@ export default function Navbar() {
             </Link>
           ))}
           <motion.a
-            href="https://calendly.com/aakash4dev/quickchat"
+            href="https://x.com/pixra_ai"
             target="_blank"
             rel="noopener noreferrer"
             className="text-gray-300 hover:text-white transition-colors duration-300"
-            aria-label="Schedule a meeting"
+            aria-label="Twitter"
             variants={iconVariants}
             initial="initial"
             whileHover="hover"
           >
-            <Calendar size={24} />
+            <Twitter size={24} />
           </motion.a>
           <motion.a
-            href="https://github.com/aakash4dev"
+            href="https://github.com/dodufish/droidodu"
             target="_blank"
             rel="noopener noreferrer"
             className="text-gray-300 hover:text-white transition-colors duration-300"
