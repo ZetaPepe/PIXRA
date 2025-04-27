@@ -229,7 +229,7 @@ export default function Home() {
           >
             <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center">
               <span className="bg-clip-text text-transparent bg-gradient-to-r from-purple-400 to-pink-500">
-                Ping Me
+                Ping US
               </span>
               <span className="ml-2 text-white">🚀</span>
             </h2>
@@ -280,22 +280,22 @@ export default function Home() {
                   <p className="text-gray-400 mb-2">Prefer to schedule a meeting?</p>
                   <div className="flex flex-col sm:flex-row justify-center gap-4">
                     <a
-                      href="https://calendly.com/aakash4dev/quickchat"
+                      href="https://d-app-olive.vercel.app/"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="inline-flex items-center justify-center px-4 py-2 border border-transparent text-sm font-medium rounded-md text-white bg-purple-600 hover:bg-purple-700"
                     >
                       <Calendar className="mr-2 h-4 w-4" />
-                      Schedule a Meeting
+                      PIXRA Test Dapp
                     </a>
                     <a
-                      href="https://drive.google.com/file/d/1Prtj5UBWzvVys8TviXZL-yN_551cRQJQ/view"
+                      href="https://d-app-olive.vercel.app/"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="inline-flex items-center justify-center px-4 py-2 border border-transparent text-sm font-medium rounded-md text-white bg-pink-600 hover:bg-pink-700"
                     >
                       <FileText className="mr-2 h-4 w-4" />
-                      View CV
+                      View PIXRA Test Dapp
                     </a>
                   </div>
                 </div>
