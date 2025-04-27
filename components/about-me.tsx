@@ -60,9 +60,9 @@ export default function AboutMe() {
         >
           <h2 className="text-3xl md:text-4xl font-bold mb-8 text-center">
             <span className="bg-clip-text text-transparent bg-gradient-to-r from-purple-400 to-pink-500">
-              Code, Coffee & Me
+              PIXRA Tokenomics
             </span>
-            <span className="ml-2">☕💻</span>
+            <span className="ml-2">⛓️🪙</span>
           </h2>
           {/* Profile Section */}
           <div className="flex flex-col md:flex-row-reverse items-center gap-8 mb-16">
@@ -79,9 +79,25 @@ export default function AboutMe() {
             <div className="md:w-2/3">
               <div className="prose prose-invert max-w-none text-center md:text-left">
                 {/* Mobile description */}
-                <p className="text-lg leading-relaxed md:hidden">
-                  Blockchain Sorcerer 🧙‍♂️ and Full Stack Dev 💻. Building secure, scalable solutions in the
-                  crypto-verse. From DeFi to Web3, turning complex tech into seamless experiences. ⛓⚡🔥
+                <p className="text-lg leading-relaxed md:hidden whitespace-pre-line">
+                  PIXRA tokens (PIXRA), as the core assets of the platform, are able to be traded, pledged, leased and other operations inside and outside the platform. 
+                  The token distribution and usage mechanism ensures the long-term growth and sustainability of the platform.
+                  <br /><br />
+                  - Token name: PIXRA
+                  <br />
+                  - Total amount: 10,000,000 PIXRA
+                  <br />
+                  - Initial distribution:
+                  <br />
+                  - 5% team, 5% rewards, 90% community, you can get a pie chart over here
+                  <br />
+                 - Usage scenario:
+                 <br />
+                   - Asset Tokenization: Tokenize assets through PIXRA, trade, pledge.
+                 <br />
+                   - Investment and financing: Users can participate in project financing or invest in assets through PIXRA.
+                 <br />
+                   - Reward Mechanism: Users who participate in platform activities are rewarded with PIXRA tokens.
                 </p>
                 {/* Desktop description */}
                 <div className="hidden md:block">
