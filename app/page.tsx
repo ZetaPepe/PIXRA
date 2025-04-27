@@ -75,6 +75,17 @@ export default function Home() {
                  bringing a more efficient and secure way of asset management and trading.
             </h2>
             <div className="flex flex-wrap justify-center gap-4">
+              {/* New Button for Beta App */}
+              <a
+                href="https://pixra.vercel.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Button className="bg-gradient-to-r from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600 text-white">
+                  Beta App
+                </Button>
+              </a>
+              
               <ScrollLink to="work" smooth={true} duration={500}>
                 <Button className="bg-gradient-to-r from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600 text-white">
                   View Projects
