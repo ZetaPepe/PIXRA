@@ -66,10 +66,13 @@ export default function Home() {
             className="text-center"
           >
             <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-4 bg-clip-text text-transparent bg-gradient-to-r from-purple-400 via-pink-500 to-red-500">
-              Hey! It's Aakash Singh Rajput
+              PIXRA - Bridging Real Assets to the Digital Future
             </h1>
             <h2 className="text-xl md:text-2xl mb-8 text-gray-300">
-              🚀 Blockchain Innovator | Full-Stack Developer | Tech Explorer
+              🚀 PIXRA is a platform that digitizes real-world assets through advanced AI 
+                 and MCP technologies and uplinks their value through the blockchain. 
+                 We transform real assets into tradable and virtualizable digital assets,
+                 bringing a more efficient and secure way of asset management and trading.
             </h2>
             <div className="flex flex-wrap justify-center gap-4">
               <ScrollLink to="work" smooth={true} duration={500}>
