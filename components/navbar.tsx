@@ -26,10 +26,10 @@ export default function Navbar() {
 
   const navLinks = [
     { name: "Home", href: "#home" },
-    { name: "About", href: "#about" },
-    { name: "Services", href: "#services" },
-    { name: "Work", href: "#work" },
-    { name: "Contact", href: "#contact" },
+    { name: "About PIXRA", href: "#about" },
+    { name: "How It Works", href: "#services" },
+    { name: "Tokenomics", href: "#work" },
+    { name: "Contact Us", href: "#contact" },
   ]
 
   const scrollToSection = (e: React.MouseEvent<HTMLAnchorElement>, href: string) => {
