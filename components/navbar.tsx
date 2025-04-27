@@ -95,6 +95,7 @@ export default function Navbar() {
             whileHover="hover"
           >
             <Github size={24} />
+          </motion.a>
         </div>
 
         {/* Mobile Navigation Toggle */}
