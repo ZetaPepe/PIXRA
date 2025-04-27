@@ -69,8 +69,8 @@ export default function AboutMe() {
             <div className="md:w-1/3">
               <div className="relative w-64 h-64 mx-auto">
                 <Image
-                  src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/me-69dycok1tWUrjh0VA4bIB19grsFa5b.jpeg"
-                  alt="Aakash Singh Rajput"
+                  src="/PIXRA.png"
+                  alt="PIXRA"
                   fill
                   className="rounded-lg object-cover shadow-lg"
                 />
