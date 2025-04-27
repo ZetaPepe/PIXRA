@@ -79,7 +79,7 @@ export default function AboutMe() {
             <div className="md:w-2/3">
               <div className="prose prose-invert max-w-none text-center md:text-left">
                 {/* Mobile description */}
-                <p className="text-lg leading-relaxed md:hidden whitespace-pre-line">
+                <p className="text-lg leading-relaxed md:hidden whitespace-pre-line  text-left">
                   PIXRA tokens (PIXRA), as the core assets of the platform, are able to be traded, pledged, leased and other operations inside and outside the platform.
                   The token distribution and usage mechanism ensures the long-term growth and sustainability of the platform.
                   <br /><br />
