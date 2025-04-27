@@ -309,8 +309,8 @@ export default function Home() {
       <footer className="py-12 bg-gradient-to-t from-gray-900 to-black">
         <div className="container px-4 mx-auto">
           <div className="flex flex-wrap justify-center gap-6 mb-8">
-            <SocialIcon icon={<Github />} href="https://github.com/aakash4dev" label="GitHub" />
-            <SocialIcon icon={<Twitter />} href="https://twitter.com/aakash4dev" label="Twitter" />
+            <SocialIcon icon={<Github />} href="https://github.com/dodufish/droidodu" label="GitHub" />
+            <SocialIcon icon={<Twitter />} href="https://x.com/pixra_ai" label="Twitter" />
           </div>
           <div className="text-center text-gray-500 text-sm">
             <p>© {new Date().getFullYear()} PIXRA. All rights reserved.</p>
