@@ -111,15 +111,15 @@ export default function Home() {
           >
             <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center">
               <span className="bg-clip-text text-transparent bg-gradient-to-r from-purple-400 to-pink-500">
-                My Expertise
+                About PIXRA
               </span>
               <span className="ml-2 text-white">🛠️</span>
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
               <ServiceCard
                 icon={<Blocks className="w-10 h-10 text-purple-500" />}
-                title="Blockchain Development"
-                description="Custom blockchain solutions, smart contracts, and decentralized applications with a focus on security and efficiency."
+                title="What is PIXRA?"
+                description="PIXRA transforms real-world physical assets (such as houses, cars, artworks) into digital assets through pixelation and virtual mapping technology."
               />
               <ServiceCard
                 icon={<Cpu className="w-10 h-10 text-pink-500" />}
