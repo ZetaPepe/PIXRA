@@ -79,27 +79,41 @@ export default function AboutMe() {
             <div className="md:w-2/3">
               <div className="prose prose-invert max-w-none text-center md:text-left">
                 {/* Mobile description */}
-                <p className="text-lg leading-relaxed md:hidden whitespace-pre-line  text-left">
+                <div className="text-lg leading-relaxed md:hidden whitespace-pre-line  text-left">
                   PIXRA tokens (PIXRA), as the core assets of the platform, are able to be traded, pledged, leased and other operations inside and outside the platform.
                   The token distribution and usage mechanism ensures the long-term growth and sustainability of the platform.
                   <br /><br />
-                  <span className="bg-clip-text text-transparent bg-gradient-to-r from-purple-400 to-pink-500 font-bold">Token name:</span> PIXRA
-                  <br />
-                  <span className="bg-clip-text text-transparent bg-gradient-to-r from-purple-400 to-pink-500 font-bold">Total amount:</span> 10,000,000 PIXRA
-                  <br />
-                  <span className="bg-clip-text text-transparent bg-gradient-to-r from-purple-400 to-pink-500 font-bold">Initial distribution:</span>
-                  <br />
-                  5% team, 5% rewards, 90% community 
-                  <br />
-                  <span className="bg-clip-text text-transparent bg-gradient-to-r from-purple-400 to-pink-500 font-bold">Usage scenario:</span>
-                  <br />
-                  <span className="bg-clip-text text-transparent bg-gradient-to-r from-purple-400 to-pink-500 font-bold">Asset Tokenization:</span> Tokenize assets through PIXRA, trade, pledge.
-                  <br />
-                  <span className="bg-clip-text text-transparent bg-gradient-to-r from-purple-400 to-pink-500 font-bold">Investment and financing:</span> Users can participate in project financing or invest in assets through PIXRA.
-                  <br />
-                  <span className="bg-clip-text text-transparent bg-gradient-to-r from-purple-400 to-pink-500 font-bold">Reward Mechanism:</span> Users who participate in platform activities are rewarded with PIXRA tokens.
-                </p>
+                  
+                  <div className="mb-3">
+                    <span className="bg-clip-text text-transparent bg-gradient-to-r from-purple-400 to-pink-500 font-bold">Token name:</span> PIXRA
+                  </div>
 
+                  <div className="mb-3">
+                    <span className="bg-clip-text text-transparent bg-gradient-to-r from-purple-400 to-pink-500 font-bold">Total amount:</span> 10,000,000 PIXRA
+                  </div>
+
+                  <div className="mb-3">
+                    <span className="bg-clip-text text-transparent bg-gradient-to-r from-purple-400 to-pink-500 font-bold">Initial distribution:</span>
+                    <br />
+                    5% team, 5% rewards, 90% community 
+                  </div>
+
+                  <div className="mb-3">
+                    <span className="bg-clip-text text-transparent bg-gradient-to-r from-purple-400 to-pink-500 font-bold">Usage scenario:</span>
+                  </div>
+
+                  <div className="mb-3 ml-4">
+                    <span className="bg-clip-text text-transparent bg-gradient-to-r from-purple-400 to-pink-500 font-bold">Asset Tokenization:</span> Tokenize assets through PIXRA, trade, pledge.
+                  </div>
+        
+                  <div className="mb-3 ml-4">
+                    <span className="bg-clip-text text-transparent bg-gradient-to-r from-purple-400 to-pink-500 font-bold">Investment and financing:</span> Users can participate in project financing or invest in assets through PIXRA.
+                  </div>
+
+                  <div className="mb-3 ml-4">
+                    <span className="bg-clip-text text-transparent bg-gradient-to-r from-purple-400 to-pink-500 font-bold">Reward Mechanism:</span> Users who participate in platform activities are rewarded with PIXRA tokens.
+                  </div>
+                </div>
                 {/* Desktop description */}
                 <div className="hidden md:block">
                   <p className="text-xl mb-4">
