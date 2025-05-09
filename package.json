@@ -71,7 +71,8 @@
     "react-tsparticles": "latest",
     "tsparticles-slim": "latest",
     "tsparticles-engine": "latest",
-    "react-scroll": "latest"
+    "react-scroll": "latest",
+    "react-simple-typewriter": "^0.5.6"
   },
   "devDependencies": {
     "@types/node": "^22",
