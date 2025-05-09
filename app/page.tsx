@@ -77,7 +77,7 @@ export default function Home() {
             <div className="flex flex-wrap justify-center gap-4">
               {/* New Button for Beta App */}
               <a
-                href="https://pixra.vercel.app/"
+                href="https://www.pixra.app/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -280,7 +280,7 @@ export default function Home() {
                   <p className="text-gray-400 mb-2">Prefer to schedule a meeting?</p>
                   <div className="flex flex-col sm:flex-row justify-center gap-4">
                     <a
-                      href="https://d-app-olive.vercel.app/"
+                      href="https://www.pixra.app/"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="inline-flex items-center justify-center px-4 py-2 border border-transparent text-sm font-medium rounded-md text-white bg-purple-600 hover:bg-purple-700"
@@ -289,7 +289,7 @@ export default function Home() {
                       PIXRA Test Dapp
                     </a>
                     <a
-                      href="https://d-app-olive.vercel.app/"
+                      href="https://www.pixra.app/"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="inline-flex items-center justify-center px-4 py-2 border border-transparent text-sm font-medium rounded-md text-white bg-pink-600 hover:bg-pink-700"
@@ -309,7 +309,7 @@ export default function Home() {
       <footer className="py-12 bg-gradient-to-t from-gray-900 to-black">
         <div className="container px-4 mx-auto">
           <div className="flex flex-wrap justify-center gap-6 mb-8">
-            <SocialIcon icon={<Github />} href="https://github.com/dodufish/droidodu" label="GitHub" />
+            <SocialIcon icon={<Github />} href="https://github.com/dodufish/PIXRA" label="GitHub" />
             <SocialIcon icon={<Twitter />} href="https://x.com/pixra_ai" label="Twitter" />
           </div>
           <div className="text-center text-gray-500 text-sm">
