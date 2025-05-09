@@ -105,7 +105,7 @@ export default function Home() {
       </section>
 
       {/* About Section */}
-      <section id="about" className="pt-10 pb-20 bg-gradient-to-b from-black to-gray-900">
+      <section id="about" className="pt-2 pb-8 bg-gradient-to-b from-black to-gray-900">
         <div className="container px-4 mx-auto">
           <AboutMe />
         </div>
