@@ -26,6 +26,7 @@ import AboutMe from "@/components/about-me"
 import Loading from "@/components/loading"
 import InteractiveShapes from "@/components/InteractiveShapes"
 import AnimatedBoxes from "@/components/AnimatedBoxes"
+import Typewriter from 'typewriter-effect'
 
 export default function Home() {
   const [mounted, setMounted] = useState(false)
@@ -65,8 +66,17 @@ export default function Home() {
             transition={{ duration: 0.8 }}
             className="text-center"
           >
-            <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-4 bg-clip-text text-transparent bg-gradient-to-r from-purple-400 via-pink-500 to-red-500">
-              PIXRA - Bridging Real Assets to the Digital Future
+           <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-4 bg-clip-text text-transparent bg-gradient-to-r from-purple-400 via-pink-500 to-red-500">
+             <Typewriter
+                options={{
+                  strings: ['PIXRA - Bridging Real Assets to the Digital Future'],
+                  autoStart: true,
+                  loop: true,
+                  delay: 75,
+                  deleteSpeed: 50,
+                  pauseFor: 2000,
+                }}
+              />
             </h1>
             <h2 className="text-xl md:text-2xl mb-8 text-gray-300">
               🚀 PIXRA is a platform that digitizes real-world assets through advanced AI 
