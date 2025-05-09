@@ -57,7 +57,7 @@ export default function AboutMe() {
             <div className="md:w-2/3">
               <div className="prose prose-invert max-w-none text-center md:text-left">
                 {/* Mobile description */}
-                <div className="text-lg leading-relaxed md:hidden whitespace-pre-line  text-left">
+                <div className="text-lg leading-relaxed whitespace-pre-line text-left">
                   PIXRA tokens (PIXRA), as the core assets of the platform, are able to be traded, pledged, leased and other operations inside and outside the platform.
                   The token distribution and usage mechanism ensures the long-term growth and sustainability of the platform.
                   <br /><br />
@@ -91,28 +91,6 @@ export default function AboutMe() {
                   <div className="mb-3 ml-4">
                     <span className="bg-clip-text text-transparent bg-gradient-to-r from-purple-400 to-pink-500 font-bold">Reward Mechanism:</span> Users who participate in platform activities are rewarded with PIXRA tokens.
                   </div>
-                </div>
-                {/* Desktop description */}
-                <div className="hidden md:block">
-                  <p className="text-xl mb-4">
-                    🚀 <strong>Hey, I'm Aakash Singh Rajput!</strong>
-                  </p>
-                  <p className="mb-4">
-                    A <strong>Blockchain Wizard 🧙‍♂️</strong> and <strong>Full Stack Alchemist 💻</strong>, turning{" "}
-                    <strong>lines of code</strong> into <strong>decentralized magic</strong>! Whether it's{" "}
-                    <strong>smart contracts</strong>, <strong>ZK proofs</strong>, or <strong>FHE sorcery</strong>, I
-                    love pushing Web3 to the next level.
-                  </p>
-                  <p className="mb-4">
-                    I spend my days <strong>hacking away in Solidity, Go, and Rust</strong>—and my nights wondering why
-                    gas fees still exist. 😅 When I'm not coding, I'm probably deep-diving into{" "}
-                    <strong>DeFi rabbit holes</strong>, contributing to <strong>open-source chaos</strong>, or
-                    evangelizing blockchain to anyone who'll listen (or can't escape).
-                  </p>
-                  <p>
-                    Let's <strong>connect, build, and break things</strong>—because the{" "}
-                    <strong>future is decentralized, and I refuse to be left behind!</strong> ⛓⚡🔥
-                  </p>
                 </div>
               </div>
             </div>
