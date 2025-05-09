@@ -56,7 +56,7 @@ export default function Home() {
       <InteractiveShapes />
 
       {/* Hero Section with Animated Boxes */}
-      <section id="home" className="relative h-screen flex items-center justify-center overflow-hidden">
+      <section id="home" className="relative py-16 flex items-center justify-center overflow-hidden">
         <AnimatedBoxes />
         <div className="container relative z-10 px-4 mx-auto">
           <motion.div
