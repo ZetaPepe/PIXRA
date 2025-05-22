@@ -79,7 +79,7 @@ export default function Home() {
               />
             </h1>
             <h2 className="text-xl md:text-2xl mb-8 text-gray-300">
-              🚀 PIXRA is a platform that digitizes real-world assets through advanced AI 
+                 PIXRA is a platform that digitizes real-world assets through advanced AI 
                  and MCP technologies and uplinks their value through the blockchain. 
                  We transform real assets into tradable and virtualizable digital assets,
                  bringing a more efficient and secure way of asset management and trading.
